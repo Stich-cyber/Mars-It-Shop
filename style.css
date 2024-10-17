@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+.contanier {
+  margin: 0 auto;
+  width: 95%;
+}
+header {
+  background-color: white;
+  height: 126px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 1px solid #bcaaaa;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.75);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.text1 {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #bcaaaa;
+}
+.card3 {
+  user-select: none;
+  display: flex;
+  gap: 6px;
+  height: 50px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+}
+.card3:focus {
+  background-color: transparent;
+}
+.card3 i {
+  color: #bcaaaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card3:focus i,
+.card3:focus p {
+  transition: 0.4s ease-out;
+  color: #ef400f; /* Matn rangini olovrangga o'zgartirish */ /* Rasm va matn tagiga olovrang chiziq qo'shish */
+}
+.card3:focus::after {
+  transition: 0.4s ease-out;
+  content: "";
+  position: absolute;
+  bottom: -24px; /* 24px pastga joylashtirish */
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #ef400f;
+}
+.card3gene button {
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 3px solid #ef400f;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #ef400f;
+}
+.card3gene button:hover {
+  background-color: #ef400f;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  color: white;
+}
+.card3and4gene {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+nav {
+  padding-top: 21px;
+}
+body {
+  background-color: #f5f5f5;
+}
+main {
+  background-color: #f5f5f5;
+  margin-top: 227px;
+}
+.card5 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.card6 input {
+  padding: 17px 60px 17px 21px;
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 22px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.card6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card6 button {
+  border: none;
+  padding: 17px 28px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  color: white;
+  border-radius: 20px;
+  background-color: #0d0d5b;
+  cursor: pointer;
+}
+.card7 {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card-three-items-gene {
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+}
+.cards-shaxamat {
+  display: flex;
+  margin-top: 117px;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 25px;
+  row-gap: 35px;
+}
+.card-shaxamat {
+  width: 290px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  height: 290px;
+  cursor: pointer;
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+}
+.card-shaxmat-in-1 {
+  display: flex;
+  margin-top: 17px;
+  margin-bottom: 34px;
+  align-items: center;
+  gap: 10px;
+}
+.text2 {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 15.73px;
+  color: rgba(0, 0, 0, 0.75);
+}
+footer {
+  height: 65px;
+  background-color: white;
+  border: 1px solid #bcaaaa4f;
+  margin-top: 40px;
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.75);
+}
+.oxirgi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 320px;
+  margin-top: 17px;
+}
+.cardoxirgi-2 {
+  margin-left: 70px;
+}
